@@ -5,4 +5,4 @@
           - name: install apache2 on ubuntu node
             apt:
                    name: apache2
-                   state: present
+                   state: absent

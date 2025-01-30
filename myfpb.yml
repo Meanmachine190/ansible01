@@ -5,4 +5,9 @@
           - name: install apache2 on ubuntu node
             apt:
                    name: apache2
-                   state: absent
+                   state: present
+
+          - name: install wget on ubuntu node
+            apt:
+                   name: wget
+                   state: present         

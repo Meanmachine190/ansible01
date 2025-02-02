@@ -3,3 +3,8 @@
 172.31.8.15
 
 [dbserver]
+
+
+[webserver:vars]
+myubuntuopenjdk= openjdk-8-jre
+myredhatopenjdk= java-1.8.0-openjdk

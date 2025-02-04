@@ -19,7 +19,7 @@
 
       - name: i want to list git
         apt:
-           name: git
+           name: tree
            state: present
         when: myresult.stderr !=**
 

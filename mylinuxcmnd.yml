@@ -15,11 +15,11 @@
         apt:
            name: git
            state: present
-        when: myresult.stderr ==**
+        when: myresult.stderr ==""
 
       - name: i want to list git
         apt:
            name: tree
            state: present
-        when: myresult.stderr !=**
+        when: myresult.stderr !=""
 

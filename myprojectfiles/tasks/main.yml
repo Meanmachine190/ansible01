@@ -1,2 +1,6 @@
 ---
-# tasks file for myprojectfiles
+      - name: i want to install apache2 on ubuntu node
+        apt:
+           name: apache2
+           state: present
+        when: ansible_os_family == "Debian"

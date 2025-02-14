@@ -8,5 +8,5 @@
 
       - name: i want to replace apcahe2 template with mypage
         template:
-         src: myapache2.j2
+         src: template/myapache2.j2
          dest: /var/www/html/index.html
